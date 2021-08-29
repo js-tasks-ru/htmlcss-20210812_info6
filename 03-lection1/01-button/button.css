@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
 .button__primary {
     width: 189px;
     height: 48px;
-    background: #4263EB;
+    background: var(--primary);
     border-radius: 8px;
     font-family: Roboto;
     font-style: normal;
@@ -51,6 +51,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
     line-height: 19px;
     text-align: center;
     color: #FFFFFF;
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 
 }
 
@@ -61,12 +62,13 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
 .button__primary:disabled {
     opacity: 0.5;
     background: #4263EB;
+    cursor: not-allowed;
 }
 
 .button__secondary {
     width: 189px;
     height: 48px;
-    background: #7048E8;
+    background: var(--secondary);
     border-radius: 8px;
     font-family: Roboto;
     font-style: normal;
@@ -75,7 +77,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
     line-height: 19px;
     text-align: center;
     color: #FFFFFF;
-
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
 
 .button__secondary:hover {
@@ -85,6 +87,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
 .button__secondary:disabled {
     opacity: 0.5;
     background: #7048E8;
+    cursor: not-allowed;
 }
 
 .button__alternate {
@@ -100,6 +103,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
     line-height: 19px;
     text-align: center;
     color: #495057;
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
 
 .button__alternate:hover {
@@ -110,6 +114,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
 .button__alternate:disabled {
     opacity: 0.5;
     border: 1px solid #ACB5BD;
+    cursor: not-allowed;
 }
 
 
