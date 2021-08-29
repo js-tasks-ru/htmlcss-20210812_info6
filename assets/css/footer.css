@@ -1,0 +1,9 @@
+.footer_title {
+    text-align: center;
+}
+
+.footer__paragraph {
+    text-align: center;
+    /*padding: 152px 0px 0px 0px;*/
+    /*Razobratsja s padding, nuzhen li otstup sverhu i skoljko s FIGMA*/
+}
