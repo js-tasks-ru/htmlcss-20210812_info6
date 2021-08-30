@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
 .button__alternate {
     width: 189px;
     height: 48px;
-    border: 1px solid #ACB5BD;
+    border: 1px solid var(--grey-3);
     background: #fff;
     border-radius: 8px;
     font-family: Roboto;
@@ -102,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    color: #495057;
+    color: var(--gray-4);
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
 
@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
 
 .button__alternate:disabled {
     opacity: 0.5;
-    border: 1px solid #ACB5BD;
+    border: 1px solid var(--gray-3);
     cursor: not-allowed;
 }
 
