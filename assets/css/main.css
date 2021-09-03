@@ -1,6 +1,8 @@
 @import '../fonts/fonts.css';
 @import "header.css";
 @import "footer.css";
+@import "../../components/card/card.css";
+@import "../../03-lection1/01-button/button.css";
 
 :root {
     --white: #ffffff;
@@ -25,11 +27,18 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.page__container {
+html, body {
     max-width: 1110px;
     width: 100%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
 
+main {
+    flex-grow: 1;
+    text-align: center;
 }
 
 h1 {
