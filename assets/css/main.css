@@ -59,6 +59,19 @@ h2 {
     color: var(--black);
 }
 
+h3 {
+
+}
+
+h4 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--black);
+}
+
 p {
     font-family: Inter;
     font-style: normal;
