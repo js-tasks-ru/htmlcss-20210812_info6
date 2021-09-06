@@ -76,3 +76,7 @@
     cursor: not-allowed;
 }
 
+.button__preview {
+    maring: 64px 0px 0px 0px;
+}
+
