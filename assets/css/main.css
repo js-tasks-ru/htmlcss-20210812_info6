@@ -4,6 +4,7 @@
 @import "footer.css";
 @import "../../components/card/card.css";
 @import "../../03-lection1/01-button/button.css";
+@import "component_page.css";
 
 :root {
     --white: #ffffff;
@@ -71,6 +72,16 @@ h4 {
     font-size: 20px;
     line-height: 26px;
     color: var(--black);
+}
+
+h5 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--grey-3);
 }
 
 p {
