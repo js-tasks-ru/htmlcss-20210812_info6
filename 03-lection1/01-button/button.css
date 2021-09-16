@@ -1,1 +1,82 @@
-/* Стилизация кнопки */
+.button__primary {
+    width: 189px;
+    height: 48px;
+    background: var(--primary);
+    border-radius: 8px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+
+}
+
+.button__primary:hover {
+    background: #2342c0;
+}
+
+.button__primary:disabled {
+    opacity: 0.5;
+    background: #4263EB;
+    cursor: not-allowed;
+}
+
+.button__secondary {
+    width: 189px;
+    height: 48px;
+    background: var(--secondary);
+    border-radius: 8px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+
+.button__secondary:hover {
+    background: #5028C6;
+}
+
+.button__secondary:disabled {
+    opacity: 0.5;
+    background: #7048E8;
+    cursor: not-allowed;
+}
+
+.button__alternate {
+    width: 189px;
+    height: 48px;
+    border: 1px solid var(--grey-3);
+    background: #fff;
+    border-radius: 8px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: var(--gray-4);
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+
+.button__alternate:hover {
+    border: 1px solid #212429;
+    color: #495057;
+}
+
+.button__alternate:disabled {
+    opacity: 0.5;
+    border: 1px solid var(--gray-3);
+    cursor: not-allowed;
+}
+
+.button__preview {
+    maring: 64px 0px 0px 0px;
+}
+
