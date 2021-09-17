@@ -87,5 +87,8 @@
     border: 2px solid red;
 }
 
+.textinput__input:disabled {
+    cursor:no-drop;
+}
 
 
