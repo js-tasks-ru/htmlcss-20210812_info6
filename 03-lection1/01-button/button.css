@@ -1,82 +1,57 @@
-.button__primary {
+.button {
     width: 189px;
     height: 48px;
-    background: var(--primary);
     border-radius: 8px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
     text-align: center;
-    color: #FFFFFF;
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+    color: var(--white);
+    background: var(--primary);
+}
 
+.button__primary {
+    /*.button как таковой имеет все настройки primary по умолчанию. Мне кажется хоть и пустым - но лучше оставить, что бы не искали. И вообще - не имеет ли смысл вообще убрать button__primary и использовать для "primary" настройки обычного button. По CSS как я понимаю раз button__secondary идут после - они будут в приоритете. Я имею ввиду .button:hover, и .button:disabled настройки не будут мешать в таком случае. */
 }
 
 .button__primary:hover {
-    background: #2342c0;
+    background: #2342c0; /*Нету цвета в root*/
 }
 
 .button__primary:disabled {
     opacity: 0.5;
-    background: #4263EB;
-    cursor: not-allowed;
+    pointer-events: none;
 }
 
 .button__secondary {
-    width: 189px;
-    height: 48px;
     background: var(--secondary);
-    border-radius: 8px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    color: #FFFFFF;
-    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
 
 .button__secondary:hover {
-    background: #5028C6;
+    background: #5028C6; /*Нету цвета в root*/
 }
 
 .button__secondary:disabled {
     opacity: 0.5;
-    background: #7048E8;
-    cursor: not-allowed;
+    pointer-events: none;
 }
 
 .button__alternate {
-    width: 189px;
-    height: 48px;
     border: 1px solid var(--grey-3);
-    background: #fff;
-    border-radius: 8px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    color: var(--gray-4);
-    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+    background: var(--white);
+    color: var(--grey-4);
 }
 
 .button__alternate:hover {
-    border: 1px solid #212429;
-    color: #495057;
+    border: 1px solid var(--black);
+    color: var(--grey-4);
 }
 
 .button__alternate:disabled {
     opacity: 0.5;
-    border: 1px solid var(--gray-3);
-    cursor: not-allowed;
-}
-
-.button__preview {
-    maring: 64px 0px 0px 0px;
+    border: 1px solid var(--grey-3);
+    pointer-events: none;
 }
 
