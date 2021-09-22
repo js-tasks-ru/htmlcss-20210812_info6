@@ -9,11 +9,10 @@
     text-align: center;
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
     color: var(--white);
-    background: var(--primary);
 }
 
 .button_primary {
-    /*.button как таковой имеет все настройки primary по умолчанию. Мне кажется хоть и пустым - но лучше оставить, что бы не искали. И вообще - не имеет ли смысл вообще убрать button__primary и использовать для "primary" настройки обычного button. По CSS как я понимаю раз button__secondary идут после - они будут в приоритете. Я имею ввиду .button:hover, и .button:disabled настройки не будут мешать в таком случае. */
+    background: var(--primary);
 }
 
 .button_primary:hover {
