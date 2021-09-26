@@ -1,3 +1,5 @@
+@import "/assets/css/main.css";
+
 .histogram {
     background: var(--white);
     border: 1px solid var(--grey-3);
@@ -25,14 +27,6 @@
     flex-grow: 1;
 }
 
-.histogram h4 {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    color: var(--black);
-}
-
 .histogram__p1 {
     font-family: Inter;
     font-style: normal;
@@ -48,11 +42,19 @@
     font-weight: normal;
     font-size: 16px;
     text-align: right;
-    color: #4263EB;
+    color: var(--color-3);
+}
+
+.histogram__p3 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: var(--black);
 }
 
 .histogram__bar {
-    background-color: #4263EB;
+    background-color: var(--color-3);
     flex-grow: 1;
 }
 
