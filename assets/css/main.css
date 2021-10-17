@@ -1,5 +1,6 @@
 @import '../fonts/fonts.css';
 @import "/assets/css/normalize.css";
+@import "/03-lection1/01-button/button.css";
 
 :root {
     --white: #ffffff;
@@ -15,6 +16,8 @@
     --color-1: #2342c0;
     --color-2: #5028C6;
     --color-3: #4263EB;
+    --color-4: #334D6E;
+    --color-5: #495057;
 
     --error: var(--red);
     --success: var(--blue);
