@@ -10,7 +10,7 @@
 
 .modal__content {
     width: 428px;
-    background: #FFFFFF;
+    background: var(--white);
     border-radius: 8px; 
     display: flex;
     flex-direction: column;
@@ -35,10 +35,11 @@
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    color: #334D6E;
+    color: var(--color-4);
 }
 
 .modal__paragraph {
     padding: 14px 40px 40px 40px;
+    color: var(--color-5);
 }
 
