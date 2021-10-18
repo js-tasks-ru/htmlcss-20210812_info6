@@ -1,7 +1,6 @@
 
 .calendar {
-    margin: 50px;
-    background: #FFFFFF;
+    background: var(--white);
     border: 1px solid var(--grey-3);
     border-radius: 8px;
     display: grid;
@@ -15,7 +14,7 @@
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    color: #334D6E;
+    color: var(--color-4);
     text-align: center;
     padding: 28px 83px 24px 83px;
 }
@@ -29,7 +28,7 @@
     font-weight: normal;
     font-size: 14px;
     text-align: center;
-    color: #90A0B7;
+    color: var(--color-6);
     padding: 0px 30px 24px 30px;
 }
 
