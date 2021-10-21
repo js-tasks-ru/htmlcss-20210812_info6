@@ -16,7 +16,7 @@
 }
 
 .checkbox__control {
-    background: #ffffff;
+    background: var(--white);
     border: 1px solid var(--grey-2);
     box-sizing: border-box;
     border-radius: 4px;
