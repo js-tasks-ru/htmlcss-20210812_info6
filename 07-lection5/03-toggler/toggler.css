@@ -18,7 +18,7 @@
 .toggler__control {
     width: 52px;
     height: 28px;
-    background: #FFFFFF;
+    background: var(--white);
     border: 1px solid var(--grey-2);
     box-sizing: border-box;
     border-radius: 16px;
