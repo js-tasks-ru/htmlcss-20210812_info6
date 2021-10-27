@@ -23,7 +23,7 @@
 }
 
 .textinput__input {
-    background: #FFFFFF;
+    background: var(--white);
     border: 1px solid var(--grey-2);
     box-sizing: border-box;
     border-radius: 8px;
@@ -37,34 +37,13 @@
     padding: 17px 0px 13px 24px;
 }
 
-.textinput__input-confirmed {
-    background: #FFFFFF;
+.textinput__input_confirmed {
     border: 1px solid var(--primary);
-    box-sizing: border-box;
-    border-radius: 8px;
-    width: 350px;
-    height: 56px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    color: var(--grey-4);
-    padding: 17px 0px 13px 24px;
+
 }
 
-.textinput__input-declined {
-    background: #FFFFFF;
-    border: 1px solid red;
-    box-sizing: border-box;
-    border-radius: 8px;
-    width: 350px;
-    height: 56px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    color: var(--grey-4);
-    padding: 17px 0px 13px 24px;
+.textinput__input_declined {
+    border: 1px solid var(--red);
 }
 
 .textinput__icon-checked {
@@ -79,12 +58,12 @@
     border: 2px solid var(--grey-2);
 }
 
-.textinput__input-confirmed:focus {
+.textinput__input_confirmed:focus {
     border: 2px solid var(--primary);
 }
 
-.textinput__input-declined:focus {
-    border: 2px solid red;
+.textinput__input_declined:focus {
+    border: 2px solid var(--red);
 }
 
 .textinput__input:disabled {
