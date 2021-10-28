@@ -1,15 +1,10 @@
 @import "null.css";
 @import '../fonts/fonts.css';
-<<<<<<< HEAD
 @import "header.css";
 @import "footer.css";
 @import "../../components/card/card.css";
 @import "../../03-lection1/01-button/button.css";
 @import "component_page.css";
-=======
-@import "/assets/css/normalize.css";
-@import "/03-lection1/01-button/button.css";
->>>>>>> master
 
 :root {
     --white: #ffffff;
