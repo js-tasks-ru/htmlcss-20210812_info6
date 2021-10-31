@@ -1,8 +1,18 @@
+footer {
+    background-color: var(--white);
+}
+
 .footer {
+    padding: 72px 0px 136px 0px;
     text-align: center;
-    padding: 72px 235px 136px 235px;
+
 }
 
 .heading__footer {
     padding-bottom: 32px;
+}
+
+.footer__wrapper {
+    max-width: 620px;
+    margin: 0 auto;
 }

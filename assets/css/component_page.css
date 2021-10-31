@@ -1,5 +1,5 @@
 .componentspage__body {
-    background: #E5E5E5;
+    background: var(--color-8);
 }
 
 .main__container-component {
@@ -60,7 +60,7 @@
 }
 
 .componentspage__heading {
-    color: #495057;
+    color: var(--grey-4);
     padding: 32px 0px 58px 48px;
     text-align: left;
 }
