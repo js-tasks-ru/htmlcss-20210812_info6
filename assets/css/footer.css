@@ -1,0 +1,14 @@
+.footer {
+    padding: 72px 0px 136px 0px;
+    text-align: center;
+    background-color: var(--white);
+}
+
+.footer__heading {
+    padding-bottom: 32px;
+}
+
+.footer__wrapper {
+    max-width: 620px;
+    margin: 0 auto;
+}

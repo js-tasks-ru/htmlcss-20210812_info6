@@ -1,0 +1,8 @@
+.header {
+    background: var(--white);
+}
+
+.header__title {
+    padding: 96px 0px 0px 0px;
+}
+
