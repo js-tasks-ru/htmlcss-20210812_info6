@@ -5,12 +5,4 @@
     border-radius: 12px;
     height: 367px;
     flex-basis: 350px;
-
-}
-
-.preview {
-    padding: 68px 0px 64px 0px;
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
 }
